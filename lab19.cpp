@@ -20,7 +20,7 @@ int main(){
 		player_action = toupper(player_action);
 		if(player_action == 'E') break; 
 		
-		int temp = rand()%3;
+		int temp = rand()%3;   //monter random action 2 things 1.atk(66.66%) 2.guard(33.33%)
 		if(temp <= 1) monster_action = 'A';
 		else if(temp == 2) monster_action = 'G';
 		
